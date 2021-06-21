@@ -26,7 +26,12 @@ object ValueVariableTypes extends App {
   // variables
   var aVariable : Int = 4
 
-  aVariable = 12 // Side Effects
+  aVariable = 12 // Side Effects : Expressions returning Units e.g. println(), whiles, reassigning vars
+
+  // Expressions vs. Instructions
+  // Instructions are executed(think Java), Expressions are evaluated (Scala)
+  // In Scala, we think in terms of expressions.
+  // NEVER use while loops in Scala code, ITS A CRIME !!
 
 
 
